@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Abdul Bari 73948 Store</title>
+    <style>
+        /* General styles */
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        
+        header {
+            background-color: #3b0f45;
+            /* Dark purple */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        
+        .logo h1 {
+            margin: 0;
+        }
+        /* About Us Section */
+        
+        .about-section {
+            padding: 60px 20px;
+            background-color: #fff;
+            text-align: center;
+        }
+        
+        .about-section h2 {
+            font-size: 36px;
+            color: #3b0f45;
+            margin-bottom: 20px;
+        }
+        
+        .about-section p {
+            font-size: 18px;
+            color: #666;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .about-section img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            margin: 40px 0;
+        }
+        /* Our Team Section */
+        
+        .team-section {
+            padding: 60px 20px;
+            background-color: #f5f5f5;
+            text-align: center;
+        }
+        
+        .team-section h2 {
+            font-size: 36px;
+            color: #3b0f45;
+            margin-bottom: 40px;
+        }
+        
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .team-member {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .team-member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        
+        .team-member h3 {
+            font-size: 22px;
+            color: #3b0f45;
+            margin-bottom: 10px;
+        }
+        
+        .team-member p {
+            font-size: 16px;
+            color: #666;
+        }
+        /* Footer */
+        
+        footer {
+            background-color: #3b0f45;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        
+        footer p {
+            margin: 0;
+        }
+        /* Media Queries */
+        
+        @media (max-width: 768px) {
+            .team-grid {
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>Abdul Bari 73948 Store</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Product.html">Products</a></li>
+                <li><a href="Categories.html">Categories</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section class="about-section">
+            <h2>About Abdul Bari Store</h2>
+            <p>At Abdul Bari Store, we believe that beauty is for everyone. Since our establishment, we have aimed to offer the finest range of makeup products that blend quality, style, and affordability. We cater to diverse needs with products that are
+                cruelty-free and designed to enhance your natural beauty. From foundations to lipsticks, we ensure that every product meets our high standards for excellence.</p>
+            <img src="images/store.jpg" alt="Abdul Bari Store">
+        </section>
+
+        <!-- Our Team Section -->
+        <section class="team-section">
+            <h2>Meet Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="images/team1.jpg" alt="Team Member 1">
+                    <h3>Sarah Ali</h3>
+                    <p>Founder & CEO</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/team2.jpg" alt="Team Member 2">
+                    <h3>Ayesha Khan</h3>
+                    <p>Head of Product Development</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/team3.jpg" alt="Team Member 3">
+                    <h3>Ahmed Malik</h3>
+                    <p>Marketing Director</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/team4.jpg" alt="Team Member 4">
+                    <h3>Zara Farooq</h3>
+                    <p>Customer Support Manager</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Abdul Bari Store</p>
+    </footer>
+</body>
+
+</html>

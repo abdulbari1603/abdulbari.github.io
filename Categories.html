@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories - Abdul Bari 73948 Store</title>
+    <style>
+        /* General styles */
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        
+        header {
+            background-color: #3b0f45;
+            /* Dark purple */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        
+        .logo h1 {
+            margin: 0;
+        }
+        /* Categories Section */
+        
+        .categories {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: #fff;
+        }
+        
+        .categories h2 {
+            color: #3b0f45;
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+        
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .category-card {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        
+        .category-card img {
+            width: 100%;
+            border-radius: 10px;
+            height: auto;
+        }
+        
+        .category-card h3 {
+            margin: 15px 0;
+            color: #3b0f45;
+            font-size: 24px;
+        }
+        
+        .category-card p {
+            font-size: 16px;
+            color: #666;
+        }
+        
+        .category-card:hover {
+            transform: translateY(-5px);
+        }
+        /* Footer */
+        
+        footer {
+            background-color: #3b0f45;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        
+        footer p {
+            margin: 0;
+        }
+        /* Media Queries */
+        
+        @media (max-width: 768px) {
+            .category-grid {
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>Abdul Bari 73948 Store</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Product.html">Products</a></li>
+                <li><a href="About us.html">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Categories Section -->
+        <section class="categories">
+            <h2>Explore Our Categories</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <img src="images/foundation.jpg" alt="Foundation">
+                    <h3>Foundation</h3>
+                    <p>Discover our range of foundations for a flawless base.</p>
+                </div>
+                <div class="category-card">
+                    <img src="images/lipsticks.jpg" alt="Lipsticks">
+                    <h3>Lipsticks</h3>
+                    <p>Explore the latest shades in matte, gloss, and satin lipsticks.</p>
+                </div>
+                <div class="category-card">
+                    <img src="images/eyeshadow.jpg" alt="Eyeshadow">
+                    <h3>Eyeshadow</h3>
+                    <p>Colorful palettes for a variety of eye looks.</p>
+                </div>
+                <div class="category-card">
+                    <img src="images/mascara.jpg" alt="Mascara">
+                    <h3>Mascara</h3>
+                    <p>Find the perfect mascara for volume, length, and definition.</p>
+                </div>
+                <div class="category-card">
+                    <img src="images/highlighter.jpg" alt="Highlighter">
+                    <h3>Highlighter</h3>
+                    <p>Glow up with our shimmering highlighters.</p>
+                </div>
+                <div class="category-card">
+                    <img src="images/brushes.jpg" alt="Brushes">
+                    <h3>Brushes</h3>
+                    <p>Professional brushes for the perfect application.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Abdul Bari Store</p>
+    </footer>
+</body>
+
+</html>
